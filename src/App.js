@@ -4,7 +4,7 @@ function App() {
   const [message, setMessage] = useState("Loading...");
 
   useEffect(() => {
-    fetch("https://spring-backend-8v84.onrender.com/api/hello")
+    fetch("https://spring-backend-3lbq.onrender.com/api/hello")
       .then((res) => res.text())
       .then((data) => setMessage(data))
       .catch((err) => setMessage("Error fetching data"));
